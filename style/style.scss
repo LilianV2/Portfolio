@@ -1,0 +1,82 @@
+$primary : linear-gradient(to right bottom, #515753, #6a7170, #878b8d, #a6a7a8, #c4c4c4);;
+$lowGrey : rgba(192, 192, 192, 0.35);
+$lowerGrey : rgba(192, 192, 192, 0.25);
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+body {
+  margin: 0;
+  color: white;
+  background: $primary;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(143% + 1.3px);
+  height: 198px;
+}
+.wave .shape-fill {
+  fill: #D1D1D1;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 150px 20vw;
+  h1{
+    font-size: 2.8rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  P{
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 46vw;
+    height: 11vh;
+    border-radius: 16px 7px 16px 7px;
+    box-shadow: 5px 20px 50px 5px rgba(77, 77, 77, 0.73);
+    background: $lowerGrey;
+  }
+  .cardContainer {
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 90vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    .card {
+      width: 22%;
+      height: 100%;
+      background: $lowerGrey;
+      border-radius: 9px;
+      box-shadow: 5px 20px 50px 5px rgba(77, 77, 77, 0.73);
+    }
+  }
+}
+
+hr {
+  border: 2px solid $lowGrey;
+  width: 80vw;
+}
+
