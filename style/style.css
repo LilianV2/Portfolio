@@ -33,7 +33,7 @@ section {
   flex-direction: column;
   align-items: center;
   min-height: 200px;
-  padding: 80px 10vw;
+  padding: 50px 10vw;
 }
 section h1 {
   font-size: 2.8rem;
@@ -65,6 +65,7 @@ section .title h1 {
 }
 section .cardContainer {
   margin-top: 2rem;
+  margin-bottom: 3rem;
   padding: 2rem;
   width: 90vw;
   height: 30vh;
@@ -94,13 +95,38 @@ section .cardContainer .card:hover {
   box-shadow: 7px 7px 25px 0 #bababa;
 }
 
+.intro div.info2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(192, 192, 192);
+  width: 20vw;
+  height: 8vh;
+  margin-bottom: 5rem;
+  border-radius: 9px 9px 1px 1px;
+  box-shadow: 7px 7px 25px 0 #bababa;
+}
+
 .intro-p {
   line-height: 40px;
+  margin-bottom: 3rem;
 }
 
 hr {
   border: 2px solid rgba(192, 192, 192, 0.35);
   width: 80vw;
+}
+
+.project h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(192, 192, 192);
+  width: 24vw;
+  height: 12vh;
+  margin-bottom: 5rem;
+  border-radius: 9px 9px 9px 9px;
+  box-shadow: 7px 7px 25px 0 #bababa;
 }
 
 .skills {
@@ -109,6 +135,7 @@ hr {
   width: 95vw;
   height: 20vh;
   padding-top: 2rem;
+  margin-bottom: 3rem;
 }
 .skills div:nth-child(1) {
   color: #e64c18;
@@ -146,6 +173,16 @@ hr {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
+  color: #353535;
+}
+.section4 div a i {
+  font-size: 3.2rem;
+  padding: 0.5rem;
+  color: #353535;
+}
+.section4 div a i:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 .section4 div span {
   font-size: 3.2rem;
@@ -154,6 +191,15 @@ hr {
 .section4 div span i:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+footer {
+  height: 20vh;
+  width: 100%;
+  background: rgba(192, 192, 192, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
