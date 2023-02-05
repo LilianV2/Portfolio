@@ -107,7 +107,7 @@ section .cardContainer .card:hover {
   box-shadow: 7px 7px 25px 0 #bababa;
 }
 
-.intro-p {
+.intro-p p{
   line-height: 40px;
   margin-bottom: 3rem;
 }
@@ -200,6 +200,29 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .title h1 {
+    font-size: 1.5rem;
+  }
+  .intro div h2{
+    font-size: 1.5rem;
+  }
+  section .title h1{
+    width: 56vw;
+    height: 9vh;
+  }
+  .intro div {
+    width: 59vw;
+    height: 7vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  section .title h1{
+    width: 66vw;
+    height: 7vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
